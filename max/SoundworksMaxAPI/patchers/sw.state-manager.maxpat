@@ -1609,28 +1609,6 @@
 				}
 
 			}
-, 			{
-				"box" : 				{
-					"id" : "obj-27",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 0.0, 113.0, 22.0 ],
-					"text" : "sw.abs 0 34 globals"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-29",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 0.0, 103.0, 22.0 ],
-					"text" : "sw.abs 1 35 other"
-				}
-
-			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{

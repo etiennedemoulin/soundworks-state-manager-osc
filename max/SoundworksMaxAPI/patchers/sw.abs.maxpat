@@ -115,7 +115,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "globals" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 123.0, 71.0, 30.0, 30.0 ]
 								}
 
@@ -263,23 +263,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1027.0, 229.0, 127.0, 22.0 ],
 					"text" : "r #3.sw.getValues"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-10",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 27.0, 521.0, 98.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"filename" : "maincounter.js",
-						"parameter_enable" : 0
-					}
-,
-					"text" : "js maincounter.js"
 				}
 
 			}
@@ -809,7 +792,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 4,
-					"outlettype" : [ "bang", "globals", "globals", "bang" ],
+					"outlettype" : [ "bang", "", "", "bang" ],
 					"patching_rect" : [ 469.0, 138.0, 115.0, 22.0 ],
 					"text" : "t b #3 #3 b"
 				}
@@ -1229,7 +1212,17 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "spat5.osc.prepend.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "spat5.osc.route.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

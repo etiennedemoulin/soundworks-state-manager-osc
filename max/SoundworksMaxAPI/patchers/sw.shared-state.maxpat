@@ -133,23 +133,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-23",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 26.0, 603.0, 100.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"filename" : "slavecounter.js",
-						"parameter_enable" : 0
-					}
-,
-					"text" : "js slavecounter.js"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-22",
 					"maxclass" : "dict.view",
 					"numinlets" : 1,

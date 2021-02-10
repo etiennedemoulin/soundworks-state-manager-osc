@@ -2,7 +2,7 @@
 	"name" : "SoundworksMaxAPI",
 	"version" : 1,
 	"creationdate" : 3694697443,
-	"modificationdate" : 3695311460,
+	"modificationdate" : 3695817854,
 	"viewrect" : [ 25.0, 104.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -11,11 +11,6 @@
 	"contents" : 	{
 		"patchers" : 		{
 			"StateManager_helper.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"float.sw.bp.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -35,17 +30,22 @@
 				"local" : 1
 			}
 ,
+			"float.sw.bp.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"integer.sw.bp.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"sw.StateManager.maxpat" : 			{
+			"sw.abs.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"sw.abs.maxpat" : 			{
+			"sw.StateManager.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -84,6 +84,19 @@
 ,
 			"spat5.osc.route.mxo" : 			{
 				"kind" : "object",
+				"local" : 1
+			}
+
+		}
+,
+		"other" : 		{
+			"maincounter.js" : 			{
+				"kind" : "file",
+				"local" : 1
+			}
+,
+			"slavecounter.js" : 			{
+				"kind" : "file",
 				"local" : 1
 			}
 
